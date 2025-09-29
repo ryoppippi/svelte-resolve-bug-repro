@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "packageManager": "pnpm@10.17.1",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -24,6 +25,15 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
+    ]
+  },
+  "devEngines": {
+    "runtime": [
+      {
+        "name": "node",
+        "version": "^22.20.0",
+        "onFail": "download"
+      }
     ]
   }
 }
