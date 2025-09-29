@@ -5,4 +5,7 @@ import { resolve } from '$app/paths';
 
 <a href={resolve('/about')}>about</a>
 
+<!-- This works actually -->
+<!-- <a href='/about'>about</a> -->
+
 {@render children()}
